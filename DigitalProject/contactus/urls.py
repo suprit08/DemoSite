@@ -2,5 +2,5 @@ from django.urls import path
 from .views import Contactus
 
 urlpatterns = [
-    path('', Contactus, name="contactus")
+    path('contactus/', Contactus, name="contactus")
 ]
