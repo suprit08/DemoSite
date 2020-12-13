@@ -1,7 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+{% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +11,7 @@ Author URL: http://w3layouts.com
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap" rel="stylesheet">
 
   <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="{% static 'css/style-starter.css' %}">
 
 </head>
 
@@ -89,12 +86,12 @@ Author URL: http://w3layouts.com
                     <a href="#readmore" class="btn btn-primary btn-style mt-4">Read More</a>
                 </div>
                 <div class="col-lg-6 feature-grid-right order1">
-                    <img src="assets/images/s1.png" class="img-fluid img-shadow" alt="services">
+                    <img src="{% static 'images/s1.png' %}" class="img-fluid img-shadow" alt="services">
                 </div>
             </div>
             <div class="row main-cont-wthree-2 mt-5">
                 <div class="col-lg-6 feature-grid-right">
-                    <img src="assets/images/s2.png" class="img-fluid img-shadow" alt="services">
+                    <img src="{% static 'images/s2.png'%}" class="img-fluid img-shadow" alt="services">
                 </div>
                 <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4">
                     <h4 class="title-left">Performance Analyze</h4>
@@ -171,7 +168,7 @@ Author URL: http://w3layouts.com
             </div>
             <div class="row mobile-info-inn mx-lg-0 mt-md-5 mt-4">
                 <div class="col-lg-6 image-left">
-                    <img src="assets/images/s.jpg" class="img-fluid" alt="">
+                    <img src="{% static 'images/s.jpg' %}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 mobile-right mt-lg-0 mt-5">
                     <div class="row mobile-right-grids mb-lg-5 mb-4">
@@ -306,18 +303,18 @@ Author URL: http://w3layouts.com
 <!-- //move top -->
 
 <!-- javascript -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 
 <!-- libhtbox -->
-<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="{% static 'js/lightbox-plus-jquery.min.js' %}"></script>
 
 <!-- particles -->
-<script src='assets/js/particles.min.js'></script>
-<script src="assets/js/script.js"></script>
+<script src="{% static 'js/particles.min.js'%}"></script>
+<script src="{% static 'js/script.js' %}"></script>
 <!-- //particles -->
 
 <!-- owl carousel -->
-<script src="assets/js/owl.carousel.js"></script>
+<script src="{% static 'js/owl.carousel.js' %}"></script>
 <script>
   $(document).ready(function () {
     var owl = $('.owl-carousel');
@@ -351,7 +348,7 @@ Author URL: http://w3layouts.com
 <!-- disable body scroll which navbar is in active -->
 
 <!-- bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
 
 </body>
 </html>
