@@ -1,7 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+{% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +11,7 @@ Author URL: http://w3layouts.com
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap" rel="stylesheet">
 
   <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="{% static 'css/style-starter.css' %}">
 
 </head>
 
@@ -76,7 +73,7 @@ Author URL: http://w3layouts.com
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
                 <div>
-                    <img src="assets/images/banner-round.png" alt="" class="rounded-circle img-fluid">
+                    <img src="{% static 'images/banner-round.png' %}" alt="" class="rounded-circle img-fluid">
                 </div>
             </div>
         </div>
@@ -98,7 +95,7 @@ Author URL: http://w3layouts.com
                     Fugit ipsam nostrum minus alias, expedita.</p>
             </div>
             <div class="col-lg-6">
-                <img src="assets/images/about.png" class="img-fluid img-shadow" alt="about">
+                <img src="{% static 'images/about.png' %}" class="img-fluid img-shadow" alt="about">
             </div>
         </div>
     </div>
@@ -200,7 +197,7 @@ Author URL: http://w3layouts.com
                             <div class="customers-left_sur">
                                 <div class="customers_grid">
                                     <div class="custo-img-res">
-                                        <img src="assets/images/testi1.jpg" alt=" " class="">
+                                        <img src="{% static 'images/testi1.jpg' %}" alt=" " class="">
                                     </div>
                                     <div class="ratings my-4 my-4">
                                         <span class="fa fa-star"></span>
@@ -228,7 +225,7 @@ Author URL: http://w3layouts.com
                             <div class="customers-left_sur">
                                 <div class="customers_grid">
                                     <div class="custo-img-res">
-                                        <img src="assets/images/testi2.jpg" alt=" " class="img-fluid">
+                                        <img src="{% static 'images/testi2.jpg' %}" alt=" " class="img-fluid">
                                     </div>
                                     <div class="ratings my-4">
                                         <span class="fa fa-star"></span>
@@ -256,7 +253,7 @@ Author URL: http://w3layouts.com
                             <div class="customers-left_sur">
                                 <div class="customers_grid">
                                     <div class="custo-img-res">
-                                        <img src="assets/images//testi3.jpg" alt=" " class="img-fluid">
+                                        <img src="{% static 'images//testi3.jpg' %}" alt=" " class="img-fluid">
                                     </div>
                                     <div class="ratings my-4">
                                         <span class="fa fa-star"></span>
@@ -284,7 +281,7 @@ Author URL: http://w3layouts.com
                             <div class="customers-left_sur">
                                 <div class="customers_grid">
                                     <div class="custo-img-res">
-                                        <img src="assets/images//testi4.jpg" alt=" " class="img-fluid">
+                                        <img src="{% static 'images//testi4.jpg' %}" alt=" " class="img-fluid">
                                     </div>
                                     <div class="ratings my-4">
                                         <span class="fa fa-star"></span>
@@ -312,7 +309,7 @@ Author URL: http://w3layouts.com
                             <div class="customers-left_sur">
                                 <div class="customers_grid">
                                     <div class="custo-img-res">
-                                        <img src="assets/images//testi5.jpg" alt=" " class="img-fluid">
+                                        <img src="{% static 'images//testi5.jpg' %}" alt=" " class="img-fluid">
                                     </div>
                                     <div class="ratings my-4">
                                         <span class="fa fa-star"></span>
@@ -393,7 +390,7 @@ Author URL: http://w3layouts.com
         <div class="blog-grids row mt-5">
             <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn">
                 <a href="#blog-single.html">
-                    <figure><img src="assets/images/blog.jpg" class="img-fluid" alt=""></figure>
+                    <figure><img src="{% static 'images/blog.jpg' %}" class="img-fluid" alt=""></figure>
                 </a>
                 <div class="blog-info">
                     <h3><a href="#blog-single.html">4 Steps To Consider Before You Start</a> </h3>
@@ -405,7 +402,7 @@ Author URL: http://w3layouts.com
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-4 blog-grid" id="zoomIn">
                 <a href="#blog-single.html">
-                    <figure><img src="assets/images/blog1.jpg" class="img-fluid" alt=""></figure>
+                    <figure><img src="{% static 'images/blog1.jpg' %}" class="img-fluid" alt=""></figure>
                 </a>
                 <div class="blog-info">
                     <h3><a href="#blog-single.html">Strategic Plan Execution Management</a> </h3>
@@ -417,7 +414,7 @@ Author URL: http://w3layouts.com
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-4 blog-grid" id="zoomIn">
                 <a href="#blog-single.html">
-                    <figure><img src="assets/images/blog2.jpg" class="img-fluid" alt=""></figure>
+                    <figure><img src="{% static 'images/blog2.jpg' %}" class="img-fluid" alt=""></figure>
                 </a>
                 <div class="blog-info">
                     <h3><a href="#blog-single.html">Business planning, strategy and execution</a> </h3>
@@ -519,18 +516,18 @@ Author URL: http://w3layouts.com
 <!-- //move top -->
 
 <!-- javascript -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 
 <!-- libhtbox -->
-<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="{% static 'js/lightbox-plus-jquery.min.js' %}"></script>
 
 <!-- particles -->
-<script src='assets/js/particles.min.js'></script>
-<script src="assets/js/script.js"></script>
+<script src="{% static 'js/particles.min.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
 <!-- //particles -->
 
 <!-- owl carousel -->
-<script src="assets/js/owl.carousel.js"></script>
+<script src="{% static 'js/owl.carousel.js' %}"></script>
 <script>
   $(document).ready(function () {
     var owl = $('.owl-carousel');
@@ -564,7 +561,7 @@ Author URL: http://w3layouts.com
 <!-- disable body scroll which navbar is in active -->
 
 <!-- bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
 
 </body>
 </html>
